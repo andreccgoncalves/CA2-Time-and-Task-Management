@@ -46,6 +46,5 @@ System.out.println("Hello World! Lucas Gustavo, Brazil ");
 calculator_sum();    
 caclulator_multiplication();
 
-
 }
 }
