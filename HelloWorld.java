@@ -31,7 +31,7 @@ int num1 = myKb.nextInt();
 System.out.println("Please enter another number");
 int num2 = myKb.nextInt();
 
-System.out.println("The sum of " + num1 + " and " + num2 + " is " + (num1 + num2));
+System.out.println("The multiplication of " + num1 + " and " + num2 + " is " + (num1 * num2));
 
         }
     
