@@ -53,18 +53,12 @@ caclulator_multiplication();
  }
     public static void main(String[] args) {
       System.out.println("This is main program");
-    
-      GantogtokhMethod();
+          GantogtokhMethod();
       System.out.println("Please enter a number");
-
-
 Scanner myKb = new Scanner(System.in);
 int num3 = myKb.nextInt();
-
 System.out.println("Please enter another number");
 int num4 = myKb.nextInt();
-
 System.out.println("The divide  of " + num3 + " and " + num4 + " is " + (num3 / num4));
-   
-}
+   }
 }
