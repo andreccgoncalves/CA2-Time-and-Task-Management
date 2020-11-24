@@ -46,7 +46,7 @@ public static void main(String[] args) {
 System.out.println("Hello World! - Andre Goncalves, Brazil ");
 System.out.println("Hello World! Lucas Gustavo, Brazil ");
 System.out.println("Hello World! Gantogtokh Battumur, Mongolia "); 
-System.out.println("Hello World! Frank Willian Brazil, Mongolia "); 
+System.out.println("Hello World! Frank Willian Brazil, Brazil "); 
 
 System.out.println("This is main program");
 GantogtokhMethod();
