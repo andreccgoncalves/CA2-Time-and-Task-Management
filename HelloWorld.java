@@ -13,7 +13,7 @@ System.out.println("Please enter another number");
 int num2 = myKb.nextInt();
 System.out.println("The sum of " + num1 + " and " + num2 + " is " + (num1 + num2));
 }
-//Method done by Andre Goncalves
+//Method done by Lucas Gustavo
 static void caclulator_multiplication(){
 System.out.println("Please enter a number");
 Scanner myKb = new Scanner(System.in);
@@ -66,14 +66,3 @@ caclulator_subtractionFrankWillian();
 whoareyou();
 }
 }
-
-
-
-
-
-
-
-
-
-
-
