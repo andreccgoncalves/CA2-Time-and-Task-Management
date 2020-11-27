@@ -1,5 +1,7 @@
 package CA2TimeandTask;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Ca2_timeAndTask {
@@ -13,6 +15,7 @@ System.out.println("Please enter another number");
 int num2 = myKb.nextInt();
 System.out.println("The sum of " + num1 + " and " + num2 + " is " + (num1 + num2));
 }
+    
 //Method done by Lucas Gustavo
 static void caclulator_multiplication(){
 System.out.println("Please enter a number");
@@ -22,15 +25,17 @@ System.out.println("Please enter another number");
 int num2 = myKb.nextInt();
 System.out.println("The multiplication of " + num1 + " and " + num2 + " is " + (num1 * num2));
 }
+    
 //Method done by Gantogtokh Battumur
 static void caclulator_division(){
 System.out.println("Please enter a number");
 Scanner myKb = new Scanner(System.in);
-int num3 = myKb.nextInt();
+float num3 = myKb.nextFloat();
 System.out.println("Please enter another number");
-int num4 = myKb.nextInt();
+float num4 = myKb.nextFloat();
 System.out.println("The division between " + num3 + " and " + num4 + " is " + (num3 / num4));
 }
+    
 //Method done by Frank Willian
 static void caclulator_subtractionFrankWillian(){
 System.out.println("Please enter a number");
@@ -40,11 +45,12 @@ System.out.println("Please enter another number");
 int num2 = myKb.nextInt();
 System.out.println("The subtraction of " + num1 + " and " + num2 + " is " + (num1 - num2));
 }
+    
 //Method done by Paula Priscila
 static void whoareyou(){
 
 BufferedReader name = new BufferedReader(new InputStreamReader(System.in));
-  
+    System.out.println("Please enter your name");
 try{
        String name1 = name.readLine();
        System.out.println(" LOVELY NAME " + name1);
