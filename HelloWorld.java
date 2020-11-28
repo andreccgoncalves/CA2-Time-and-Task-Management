@@ -58,39 +58,44 @@ try{
     
 }
 }
+
+//Method done by Maria de Oliveira    
+static void Greater_Two_Numbers(){
+System.out.println("Please enter First number");
+Scanner myKb = new Scanner(System.in);
+int num1 = myKb.nextInt();
+System.out.println("Please enter Second number");
+int num2 = myKb.nextInt();
+
+if(num1 == num2)
+{
+    System.out.println("Both the number are same");
+} 
+else if(num1 > num2)
+{
+    System.out.println("First number " + num1 + " is greater than second number " + num2);
+} 
+else
+{
+    System.out.println("Second number " + num2 + " is greater than first number " + num1);
+} 
+}
+    
 public static void main(String[] args) {
 System.out.println("Hello World! - Andre Goncalves, Brazil ");
 System.out.println("Hello World! Lucas Gustavo, Brazil ");
 System.out.println("Hello World! Gantogtokh Battumur, Mongolia ");
 System.out.println("Hello World! Frank Willian Brazil, Brazil ");
 System.out.println("Hello World! Paula Priscila, Brazil ");
+System.out.println("Hello World! Maria de Oliveira, Brazil ");
     
 calculator_sum();
 caclulator_multiplication();
 caclulator_division();
 caclulator_subtractionFrankWillian();
 whoareyou();
+Greater_Two_Numbers();
 }
 }
 
-//Method done by Maria de Oliveira
 
-public class Main {
-    
-    Public static void main (String[] args) {
-        Book Book = new Book();
-        
-        Book.name = "Don’t Overthink It";
-        Book.description = "Make Easier Decisions, Stop Second-Guessing, and Bring More Joy to Your Life";
-        Book.isbn = "9780801094460";
-        Book.price ="$11,25";
-        Book.author = "Anne Bogel";
-        Book.date = "03/03/2020";
-        
-        Void BookData() {
-            System.out.printIn("Book name: " + name);
-            System.out.printIn("Price: " + price);
-            System.out.printIn("Author: " + author);
-            System.out.printIn("Release Date: " + date +"/n");
-
-}
