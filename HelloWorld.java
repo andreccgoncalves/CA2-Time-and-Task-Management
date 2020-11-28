@@ -72,3 +72,25 @@ caclulator_subtractionFrankWillian();
 whoareyou();
 }
 }
+
+//Method done by Maria de Oliveira
+
+public class Main {
+    
+    Public static void main (String[] args) {
+        Book Book = new Book();
+        
+        Book.name = "Don’t Overthink It";
+        Book.description = "Make Easier Decisions, Stop Second-Guessing, and Bring More Joy to Your Life";
+        Book.isbn = "9780801094460";
+        Book.price ="$11,25";
+        Book.author = "Anne Bogel";
+        Book.date = "03/03/2020";
+        
+        Void BookData() {
+            System.out.printIn("Book name: " + name);
+            System.out.printIn("Price: " + price);
+            System.out.printIn("Author: " + author);
+            System.out.printIn("Release Date: " + date +"/n");
+
+}
